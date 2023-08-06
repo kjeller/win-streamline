@@ -1,9 +1,9 @@
 @echo off
-FOR /F %%i in (my-application-list.txt) DO (
+for /f %%i in (my-application-list.csv) do (
     winget install %%i
-    if %ERRORLEVEL% EQU 0 (
-        Echo %%i installed successfully.
+    if %errorlevel% equ 0 (
+        echo %%i installed successfully.
     ) else (
-        Echo Installed %%i (errorlevel=%ERRORLEVEL%)
+        echo Installed %%i (errorlevel=%errorlevel%)
     )
 )
