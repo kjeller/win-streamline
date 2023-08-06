@@ -1,0 +1,6 @@
+# Set to dark theme for system and apps
+"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize","SystemUsesLightTheme",REG_DWORD,0
+"HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Themes\Personalize","AppsUseLightTheme",REG_DWORD,0
+
+# Hide activate windows watermark
+"HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\SoftwareProtectionPlatform\Activation","Manual",REG_DWORD,1
